@@ -1,0 +1,26 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+
+  <h2>Webex Teams API to Send a Message</h2>
+  <h3>
+  <pre>
+  url = 'https://api.ciscospark.com/v1/messages'
+
+  headers = {
+    "Authorization": "Bearer YmRkOTU0NzYtOWE0Ny00ZTAz",
+    "Content-Type": "application/json"
+    }
+        
+  payload = {
+    "roomId": "Y2lzY29zcGFyazovL3VzL1JPT00vZGQ5YTI4OT",
+    "text" : "This is a test message!"
+    }
+        
+  response = requests.post(url, data=json.dumps(payload), headers=headers)
+</pre>
+</h3>
+ 
+<a href="/home" style="width:150px; text-align:center;">Back</a>
+ 
+{% endblock %} 

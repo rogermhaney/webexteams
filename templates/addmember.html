@@ -1,0 +1,27 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+
+  <h2>Webex Teams API to Create a Teams Room</h2>
+  <h3>
+  <pre>
+  url = 'https://api.ciscospark.com/v1/memberships'
+
+  headers = {
+    "Authorization": "Bearer YmRkOTU0NzYtTAzLWFmZmQtYjAy",
+    "Content-Type": "application/json"
+    }
+
+  payload = {
+    "roomId": "Y2lzY29zcGFyazovL3VzL1JPT00vZGQ5YTI4OTM",
+    "personEmail": "username@email.com",
+    "isModerator": false
+    }
+
+  response = requests.post(url, data=payload, headers=headers)
+</pre>
+</h3>
+
+<a href="/home" style="width:150px; text-align:center;">Back</a>
+
+{% endblock %} 

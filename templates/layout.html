@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link rel="shortcut icon" href="/static/favicon.ico">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+    <link rel="stylesheet" type="text/css" href="/static/style.css">
+    <title>WebEx Teams API Demo</title>
+  </head>
+  <style>
+  body {
+    font-family: 'Roboto', sans-serif;
+    background-color: white;
+  }
+@media only screen and (min-width: 550px) {
+  body {
+    background-image: url("/static/teams.png");
+    background-repeat: no-repeat;
+    margin-left: 200px;
+  }
+}
+
+@media only screen and (min-width: 700px) {
+  body {
+    background-image: url("/static/teams.png");
+    background-repeat: no-repeat;
+    margin-left: 300px;
+  }
+}
+  </style>
+  <body>
+
+    {% block body %}{% endblock %}
+
+  </body>
+</html>

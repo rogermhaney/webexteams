@@ -1,0 +1,27 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+
+  <h2>Webex Teams API Demo</h2>
+
+  <form method='post' action='/home'>
+    <table  style="width:500px;">
+      <tr>
+        <td><b>Create a New Room:</b></td>
+        <td><input type="text" style="width:300px;" name="teamsroomname"></td>
+      </tr>
+      <tr>
+        <td><b>Add a Team Member:</b></td>
+        <td><input type="text" style="width:300px;" name="membername"></td>
+      </tr>
+      <tr>
+        <td><b>Post a Message:</b></td>
+        <td><input type="text" style="width:300px;" name="themessage"></td>
+      </tr>
+      <tr>
+        <td><input type="submit" value="Submit" style="width:100px; height:35px; border:3px solid #3e8ede; background-color: #f9a61a; border-radius:5px; color:#3e8ede; text-align:center; font-size:100%;"></td>
+      </tr>
+    </table>
+  </form>
+  </h3>
+{% endblock %}  
