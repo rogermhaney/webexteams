@@ -12,9 +12,7 @@
   
 **From Terminal:**  
 CD to directory of main python program (webexapidemo.py)  
-"export FLASK_APP=webexapidemo.py"  
-execute command: "flask run"  
-This will start server  
-  
-Main page running at: "localhost:5000/home"  
+execute command: "export FLASK_APP=webexapidemo.py"  
+execute command: "flask run" to start the server  
+Main page will be running at: "localhost:5000/home"  
 
