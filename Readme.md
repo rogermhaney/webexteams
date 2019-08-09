@@ -10,7 +10,7 @@
 ### **Make sure yyou update your token! Log in to DevNet at: https://developer.webex.com/docs/api/getting-started for token**  
   
   
-From Terminal:  
+**From Terminal:**  
 CD to directory of main python program (webexapidemo.py)  
 "export FLASK_APP=webexapidemo.py"  
 execute command: "flask run"  
