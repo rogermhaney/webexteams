@@ -4,7 +4,7 @@
 ###
 1. Requires Python 3.5+  
 2. Requires Flask library and dependancies  
-3. Requires json & requests libraries for http calls  
+3. Requires JSON & requests libraries for http calls  
 
   
 ### **Make sure yyou update your token! Log in to DevNet at: https://developer.webex.com/docs/api/getting-started for token**  
