@@ -3,7 +3,7 @@
   
 ###
 1. Requires Python 3.5+  
-2. Requires Flask library and dependancies  
+2. Requires Flask library and dependencies  
 3. Requires JSON & requests libraries for http calls  
 
   
