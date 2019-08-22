@@ -5,7 +5,7 @@ import requests
 app = Flask(__name__)
 app.debug=True
 
-access_token = "N2JjODhmYzYtOWQ1NS00YWEwLTk4N2EtYzExODhjNDdlZTUxN2Y2MzUxMjAtNTI5_PF84_e022b5d5-fdca-4b8a-9d1c-1f7f4d958cd7"
+access_token = "ZjIwZjhjNzEtMTc4MctNzVhZWRiMzFiZDQ0OWYyODAzMmMtMmVl_PF84_e022b5d5-fdca-4b8a-9d1c-1f7f4d958cd7"
 newRoomId = " "
 
 def makearoom(nameofroom):
@@ -83,7 +83,6 @@ def hello_world():
         roomname = request.form['teamsroomname']
         membername = request.form['membername']
         messagetosend = request.form['themessage']
-        print(roomname, membername, messagetosend)
 
         if roomname != "":
             global newRoomId
